@@ -9,7 +9,7 @@
     <h1>User Creation Form</h1>
     <form id="form">
       <label for="fullName">Full Name:</label>
-      <input type="text" id="fullName" name="fullName" required pattern="[a-zA-Z]">
+      <input type="text" id="fullName" name="fullName" required pattern="[a-z A-Z]">
 
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required pattern="a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$">
@@ -27,7 +27,7 @@
     </form>
 
     <script>
-      const form = document.getElementById("form");
+    const form = document.getElementById("form");
       const occupationSelect = document.getElementById("occupation");
       const stateSelect = document.getElementById("state");
 
